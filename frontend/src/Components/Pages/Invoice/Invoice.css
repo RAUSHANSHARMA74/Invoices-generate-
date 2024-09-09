@@ -1,0 +1,236 @@
+.invoice_container {
+  border: 1px solid grey;
+  padding: 16px 24px;
+  width: 100%;
+  margin: 50px auto;
+}
+.invoice {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.header_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo > img,
+.signature {
+  width: 150px;
+  height: 70px;
+}
+
+.tax_invoice_bill {
+  text-align: right;
+}
+
+.tax_invoice_bill > span {
+  display: block;
+  font-size: 18px;
+}
+
+.invoice_container > button {
+  border: 0px;
+  border-radius: 8px;
+  padding: 8px 32px;
+  font-size: 24px;
+  background-color: #ff9a00;
+  color: white;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.invoice_container > button:hover {
+  background-color: #df9019;
+}
+
+.sold_billing_address {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.sold > span:nth-child(1),
+.billing_address > span:nth-child(1) {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+.sold {
+  width: 40%;
+  text-align: left;
+  font-size: 16px;
+}
+
+.billing_address {
+  width: 40%;
+  text-align: right;
+  font-size: 16px;
+}
+
+.pan_state_no {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.pan_number,
+.state_ut {
+  width: 50%;
+}
+
+.pan_number > span,
+.state_ut > span {
+  font-weight: bold;
+  display: block;
+  font-size: 18px;
+}
+
+.pan_number > span span,
+.state_ut > span span {
+  font-weight: normal;
+  display: inline;
+  font-size: 16px;
+}
+
+.pan_number {
+  text-align: left;
+}
+
+.state_ut {
+  text-align: right;
+}
+
+.shipping_address {
+  /* border: 1px solid red; */
+  text-align: right;
+  width: 40%;
+  margin-left: auto;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.shipping_address > span:first-child {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+
+.shipping_address > span:nth-child(2) {
+  display: block;
+}
+
+.state_supply_delivery {
+  text-align: right;
+  width: 40%;
+  margin-left: auto;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.state_supply_delivery > span {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+
+.state_supply_delivery > span span {
+  font-weight: normal;
+  font-size: 16px;
+}
+.order_invoice_number {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.order,
+.invoice_number_details {
+  width: 48%;
+}
+
+.order {
+  text-align: left;
+}
+
+.invoice_number_details {
+  text-align: right;
+}
+
+.order > span,
+.invoice_number_details > span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.order > span span,
+.invoice_number_details > span span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* table */
+.product_details_table_sign {
+  border: 1px solid black;
+  margin-top: 24px;
+}
+table {
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse; /* Ensures borders collapse into a single line */
+}
+
+th,
+td {
+  border: 1px solid #ddd; /* Light grey border for table cells */
+  padding: 8px;
+  text-align: left; /* Align text to the left */
+}
+
+th {
+  background-color: #f4f4f4; /* Light grey background for header cells */
+  font-weight: bold;
+}
+
+tr.common-row:first-child {
+  border-top: none; /* Remove top border for the first row */
+}
+.total {
+  font-weight: bold;
+}
+
+.amount_in_words {
+  border: 1px solid #ddd;
+}
+.amount_in_words > span {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+.exports_name_signature {
+  text-align: right;
+  margin: 8px;
+}
+.exports_name_signature > p {
+  font-size: 18x;
+  font-weight: bold;
+  margin: 8px 0px;
+}
+.signature {
+  border: 1px solid black;
+  height: 60px;
+  width: 200px;
+}
+
+.note {
+  font-size: 18px;
+}
