@@ -4,7 +4,7 @@ import Home from '../Pages/Home/Home';
 import About from '../Pages/About/About';
 import Invoice from '../Pages/Invoice/Invoice';
 import Nopage from '../Pages/Nopage/Nopage';
-import Navbar from '../Pages/Navbar/Navbar.JSX';
+import Navbar from '../Pages/Navbar/Navbar';
 
 export default function Routers() {
     const [formData, setFormData] = useState({
